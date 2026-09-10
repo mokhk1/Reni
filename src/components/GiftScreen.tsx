@@ -64,7 +64,7 @@ export function GiftScreen({
   const isMatcha = gift.theme === 'matcha';
 
   const handleAnswer = (idx: number) => {
-    if (idx === gift.correctAnswer) {
+    if (gift.correctAnswers.includes(idx)) {
       setSelected(idx);
       setBurst(true);
       setTimeout(() => setPhase('correct'), 500);
@@ -218,7 +218,7 @@ export function GiftScreen({
           </div>
 
           {isMatcha && (
-            <div className="mt-4 text-3xl animate-float" aria-hidden>🍵💚</div>
+            <div className="mt-4 text-3xl animate-float" aria-hidden>☕🍕</div>
           )}
 
           <button

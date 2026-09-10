@@ -3,7 +3,7 @@ type MatchaLeavesProps = {
   className?: string;
 };
 
-/** Floating matcha leaves drifting down — used on the matcha gift + final screen. */
+/** Floating coffee cups and pizza slices drifting down — used on the coffee gift + final screen. */
 export function MatchaLeaves({ count = 8, className = '' }: MatchaLeavesProps) {
   const leaves = Array.from({ length: count }).map((_, i) => {
     const seed = i * 5039 + 71;
@@ -14,7 +14,7 @@ export function MatchaLeaves({ count = 8, className = '' }: MatchaLeavesProps) {
       delay: rand(120) / 10,
       duration: 10 + rand(8),
       size: 14 + rand(12),
-      emoji: i % 3 === 0 ? '🍵' : '🍃',
+      emoji: i % 3 === 0 ? '☕' : '🍕',
     };
   });
 

@@ -40,7 +40,7 @@ export function Intro({ onStart }: { onStart: () => void }) {
         </div>
         <span className="absolute -top-2 -right-3 text-xl animate-sparkle">✨</span>
         <span className="absolute -bottom-1 -left-3 text-lg animate-sparkle" style={{ animationDelay: '0.8s' }}>
-          🍵
+          ☕
         </span>
       </div>
 
@@ -75,7 +75,7 @@ export function Intro({ onStart }: { onStart: () => void }) {
       </button>
 
       <p className="mt-6 font-display italic text-ink-700/60 text-sm tracking-wide">
-        made with 🤍 for Loly
+        made with 🤍 for Areen
       </p>
     </section>
   );
