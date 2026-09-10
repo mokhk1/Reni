@@ -46,7 +46,7 @@ export const birthdayData = {
       roomTitle: 'الهدية الأولى',
       questionTitle: 'أول سؤال 👀',
       question: 'وين تعيش الملكة أرين؟',
-      answers: ['💩الرياض 🏙️', 'عنيزة 🌴', 'جدة 🏖️', 'بريدة 🌳'],
+      answers: ['الرياض 🏙️', 'عنيزة 🌴', 'جدة 🏖️', 'بريدة 💩'],
       correctAnswers: [1],
       correctPraise: 'صح! عنيزة دارك 😭🩷',
       wrongReply: 'لااا 😭 جربي مرة ثانية.',
