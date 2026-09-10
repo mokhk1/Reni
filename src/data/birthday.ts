@@ -87,7 +87,7 @@ export const birthdayData = {
         'هذي الهدية على ذوقك تمامًا ☕🍕 كل فنجان قهوة مع قطعة بيتزا يذكّرك إنه في لحظات لذيذة تستاهل توقفين لها. خلي يومك مليان باللي تحبين، واستمتعي بسنتك.',
       revealSub: '☕ coffee + 🍕 pizza = happiness',
       image:
-        'https://images.pexels.com/photos/36851643/pexels-photo-36851643.jpeg?auto=compress&cs=tinysrgb&w=800',
+        'https://i.pinimg.com/564x/60/b3/b8/60b3b888914534cfa940f458c2143798.jpg',
       matcha: true,
     },
     {
