@@ -46,9 +46,9 @@ export const birthdayData = {
       roomTitle: 'الهدية الأولى',
       questionTitle: 'أول سؤال 👀',
       question: 'وين ساكنة؟',
-      answers: ['الرياض 📍', 'تبوك 📍', 'جدة 📍', 'الدمام 📍'],
+      answers: ['الرياض 📍', 'تبوك 💪💪', 'جدة 🦈🪸🏝️', 'الدمام 📍'],
       correctAnswer: 1,
-      correctPraise: 'صح! عرفتك 😭💗',
+      correctPraise: 'الخال والد والعم قابد بس جدة افضل من تبوك ',
       wrongReply: 'لااا 😭 مو هذي، جربي مرة ثانية.',
       revealTitle: 'هدية 1 💗',
       revealMessage:
