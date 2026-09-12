@@ -53,7 +53,7 @@ export const birthdayData = {
       revealTitle: 'هدية 1 💗',
       revealMessage:
         'أنتِ إنسانة حلوة من جوّا ومن برّا، ووجودك يخلّي اليوم أحلى بدون ما تسوين شيء. تستاهلين كل شي حلو.',
-      revealSub: '— من وحدة تحبك 🤍',
+      revealSub: '— من شخص يحبك 🤍',
     },
     {
       id: 2,
@@ -61,10 +61,10 @@ export const birthdayData = {
       theme: 'lavender',
       roomTitle: 'الهدية الثانية',
       questionTitle: 'طيب... نرفع المستوى شوي 👀',
-      question: 'صاحبة أفضل ستيكرز بالدنيا؟',
-      answers: ['أحد ثاني 😅', 'ما أعرف 🤔', 'أحلام 🤍', 'مستحيل 😂'],
+      question: 'مين عنده أفضل ستيكرز ؟',
+      answers: ['خويتك السراقة  ', 'ما أعرف ', 'أحلام ', ' الافضل انا '],
       correctAnswer: 2,
-      correctPraise: 'صححح! 😭💗 مستحيل يمر يوم بدون كاميرا',
+      correctPraise: '  عشانه يومك مشيتهااا',
       wrongReply: 'لااا 😭 جربي مرة ثانية.',
       revealTitle: 'هدية 2 ✨',
       revealMessage:
@@ -75,19 +75,19 @@ export const birthdayData = {
       id: 3,
       emoji: '💝',
       theme: 'matcha',
-      roomTitle: 'هدية الماتشا 🍵',
+      roomTitle: 'الهدية الثالثة 🍵',
       questionTitle: 'واضح إني عرفت نقطة ضعفك... 🍵',
       question: 'وش أكثر مشروب وأكلة تحبها؟',
       answers: ['قهوة وبرجر ☕🍔', 'الماتشا والسوشي 🍵🍣', 'شاي وباستا 🧋🍝', 'هوت تشوكلت وبيتزا 🍫🍕'],
       correctAnswer: 1,
-      correctPraise: 'طبعاً الماتشا! 😭🍵 ما فيها شك أصلاً',
+      correctPraise: 'طبعاً الماتششا والسوشي! 😭🍵 ما فيها شك أصلاً',
       wrongReply: 'لا 😭 مو هذي! فكّري زين...',
       revealTitle: 'هدية 3 🍵💚',
       revealMessage:
-        'هذي الهدية على ذوقك تمامًا 🍵 كل فنجان ماتشا يذكّرك إنه في لحظات هادية تستاهل توقفين لها. خذي نفس عميق، اشربي بهدوء، واستمتعي بسنتك.',
+        'هذي الهدية على ذوقك تمامًا 🍵 كل فنجان ماتشا يذكّرك إنه في لحظات هادية تستاهل توقفين وسوشي يطيرك اليابان. خذي نفس عميق، اشربي بهدوء، واستمتعي بالاكل يا دبا.',
       revealSub: '🍵 matcha is always the answer',
       image:
-        'https://images.pexels.com/photos/8629135/pexels-photo-8629135.jpeg?auto=compress&cs=tinysrgb&w=800',
+        'https://rivaspa.store/images/woman_swedish_massage_1775346202104.png',
       matcha: true,
     },
     {
