@@ -63,7 +63,7 @@ export function FinalScreen({ onReplay }: { onReplay: () => void }) {
             <div className="flex items-end gap-1">
               <span className="text-3xl animate-float" style={{ animationDelay: '0.2s' }}>🎀</span>
               <span className="text-6xl">🎁</span>
-              <span className="text-3xl animate-float" style={{ animationDelay: '0.5s' }}>☕</span>
+              <span className="text-3xl animate-float" style={{ animationDelay: '0.5s' }}>🍵</span>
             </div>
             <span className="absolute -top-3 -right-2 text-lg animate-sparkle">✨</span>
             <span className="absolute -bottom-2 -left-3 text-lg animate-sparkle" style={{ animationDelay: '1s' }}>🌸</span>

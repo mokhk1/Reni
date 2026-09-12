@@ -11,23 +11,23 @@ export type Gift = {
   questionTitle: string;
   question: string;
   answers: string[];
-  correctAnswers: number[]; // indices into answers (supports multiple correct)
+  correctAnswer: number; // index into answers
   correctPraise: string; // shown right after correct answer
   wrongReply: string; // shown on wrong answer
   revealTitle: string;
   revealMessage: string;
   revealSub?: string; // optional smaller line
   image?: string; // optional image URL (replace freely)
-  matcha?: boolean; // adds coffee/pizza decorations to the reveal
+  matcha?: boolean; // adds matcha decorations to the reveal
 };
 
 export const birthdayData = {
-  name: 'Areen',
-  nickname: 'أرين',
-  arabicName: 'أرين',
+  name: 'Raneem',
+  nickname: 'Reni',
+  arabicName: 'رنيم',
 
   intro: {
-    lines: ['أرين... 🎀', 'عندي لك شيء صغير...', 'بس مو هدية عادية 👀', 'جاهزة؟'],
+    lines: ['رنيم... 🎀', 'عندي لك شيء صغير...', 'بس مو هدية عادية 👀', 'جاهزة؟'],
     cta: 'ابدئي 🎁',
   },
 
@@ -45,15 +45,15 @@ export const birthdayData = {
       theme: 'blush',
       roomTitle: 'الهدية الأولى',
       questionTitle: 'أول سؤال 👀',
-      question: 'وين تعيش الملكة أرين؟',
-      answers: ['الرياض 🏙️', 'عنيزة 🌴', 'جدة 🏖️', 'بريدة 💩'],
-      correctAnswers: [1],
-      correctPraise: 'صح! عنيزة دارك 😭🩷',
-      wrongReply: 'لااا 😭 جربي مرة ثانية.',
+      question: 'شنو أكلة رنيم المفضلة اللي دايم تطلبها؟',
+      answers: ['برجر 🍔', 'باستا 🍝', 'سوشي 🍣', 'كل شيء حلو 🍰'],
+      correctAnswer: 3,
+      correctPraise: 'صح! عرفتك 😭💗',
+      wrongReply: 'لااا 😭 مو هذي، جربي مرة ثانية.',
       revealTitle: 'هدية 1 💗',
       revealMessage:
         'أنتِ إنسانة حلوة من جوّا ومن برّا، ووجودك يخلّي اليوم أحلى بدون ما تسوين شيء. تستاهلين كل شي حلو.',
-      revealSub: '— من شخص يحبك 🤍',
+      revealSub: '— من وحدة تحبك 🤍',
     },
     {
       id: 2,
@@ -61,10 +61,10 @@ export const birthdayData = {
       theme: 'lavender',
       roomTitle: 'الهدية الثانية',
       questionTitle: 'طيب... نرفع المستوى شوي 👀',
-      question: 'وش أكثر مكان تعشقه أرين؟',
-      answers: ['البر 🏕️', 'البحر 🌊', 'المدينة 🏙️', 'الجبل ⛰️'],
-      correctAnswers: [0, 1],
-      correctPraise: 'صححح! 😭🩷 البر والبحر = قلبك',
+      question: 'شنو اللي دايم تسوينه وين ما تروحين؟',
+      answers: ['تقرين كتاب 📖', 'تصورين كل شيء 📸', 'تطلبين قهوة ☕', 'تتكلمين مع الكل 😄'],
+      correctAnswer: 1,
+      correctPraise: 'صححح! 😭💗 مستحيل يمر يوم بدون كاميرا',
       wrongReply: 'لااا 😭 جربي مرة ثانية.',
       revealTitle: 'هدية 2 ✨',
       revealMessage:
@@ -73,21 +73,21 @@ export const birthdayData = {
     },
     {
       id: 3,
-      emoji: '🍕☕',
+      emoji: '💝',
       theme: 'matcha',
-      roomTitle: 'الهدية الثالثة 🍕☕',
-      questionTitle: 'واضح إني عرفت ذوقك... 🍕☕',
-      question: 'وش أكلة أرين المفضلة؟',
-      answers: ['برجر 🍔', 'بيتزا و وقهوة 🍕☕', 'باستا 🍝', 'بوساتت 🍣'],
-      correctAnswers: [1],
-      correctPraise: 'صح! القهوة والبيتزا ملكة السفرة 😭🩷',
-      wrongReply: 'لا 😭 مو هذا! فكّري زين...',
-      revealTitle: 'هدية 3 ☕🍕',
+      roomTitle: 'هدية الماتشا 🍵',
+      questionTitle: 'واضح إني عرفت نقطة ضعفك... 🍵',
+      question: 'إذا خيّروك شراب واحد لباقي حياتك؟',
+      answers: ['ماتشا لاتيه 🍵', 'قهوة سادة ☕', 'شاي حلي 🧋', 'هوت choc 🍫'],
+      correctAnswer: 0,
+      correctPraise: 'طبعاً الماتشا! 😭🍵 ما فيها شك أصلاً',
+      wrongReply: 'لا 😭 مو هذي! فكّري زين...',
+      revealTitle: 'هدية 3 🍵💚',
       revealMessage:
-        'هذي الهدية على ذوقك تمامًا ☕🍕 كل فنجان قهوة مع قطعة بيتزا يذكّرك إنه في لحظات لذيذة تستاهل توقفين لها. خلي يومك مليان باللي تحبين، واستمتعي بسنتك.',
-      revealSub: '☕ coffee + 🍕 pizza = happiness',
+        'هذي الهدية على ذوقك تمامًا 🍵 كل فنجان ماتشا يذكّرك إنه في لحظات هادية تستاهل توقفين لها. خذي نفس عميق، اشربي بهدوء، واستمتعي بسنتك.',
+      revealSub: '🍵 matcha is always the answer',
       image:
-        'https://i.pinimg.com/564x/60/b3/b8/60b3b888914534cfa940f458c2143798.jpg',
+        'https://images.pexels.com/photos/8629135/pexels-photo-8629135.jpeg?auto=compress&cs=tinysrgb&w=800',
       matcha: true,
     },
     {
@@ -96,10 +96,10 @@ export const birthdayData = {
       theme: 'mystery',
       roomTitle: 'آخر وحدة...',
       questionTitle: 'هذي مختلفة شوي.',
-      question: 'مين أفضل إنسانة بالدنيا؟',
-      answers: ['أرين 🤍', 'لا أحد 🤷', 'الكل 🌍', 'سؤال صعب 😅'],
-      correctAnswers: [0],
-      correctPraise: 'صح... أكيد أرين 😭🩷',
+      question: 'شنو الشيء اللي تمنيتيه هالسنة أكثر من anything؟',
+      answers: ['سفر جديد ✈️', 'راحة بال 🤍', 'نجاح في شغلك 🌟', 'كل اللي فوق ☺️'],
+      correctAnswer: 3,
+      correctPraise: 'صح... 😭🤍 وأتمنى تحصلينهم كلهن',
       wrongReply: 'لا 😭 جربي مرة ثانية.',
       revealTitle: 'هدية 4 ✨',
       revealMessage:
@@ -111,10 +111,10 @@ export const birthdayData = {
   final: {
     bridge1: 'خلصنا كل الهدايا... 🎁',
     bridge2: 'بس فيه شيء أهم.',
-    title: 'كل عام وأنتِ بخير يا أرين 🤍',
+    title: 'كل عام وأنتِ بخير يا رنيم 🤍',
     body: [
-      'أتمنى سنتك الجديدة تكون مليانة أشياء حلوة تشبهك — ضحكات كثر قهوتك اللي تشربينها، لحظات لذيذة كثر بيتزا اللي تحبينها، وناس تحبك بصدق زي ما تستاهلين.',
-      'تستاهلين كل شي جميل يجيك هالسنة. ترى وجودك بحد ذاته هدية — لي وللكل اللي حولك. خليك نفسك دائمًا، لأن نفسك شي حلو واحبكك ارينييي.',
+      'أتمنى سنتك الجديدة تكون مليانة أشياء حلوة تشبهك — ضحكات كثر ماتشا اللي تشربينها، لحظات هادية كثر اللي تحبين تصورينها، وناس تحبك بصدق زي ما تستاهلين.',
+      'تستاهلين كل شي جميل يجيك هالسنة. ترى وجودك بحد ذاته هدية — لي وللكل اللي حولك. خليك نفسك دائمًا، لأن نفسك شي حلو.',
     ],
     closing: 'وهذي كانت هديتك الصغيرة مني 🎀',
     replay: 'أعيد التجربة ✨',

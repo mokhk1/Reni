@@ -12,7 +12,7 @@ type StarFieldProps = {
 const DEFAULT_EMOJIS = ['✨', '⭐', '🎀', '💫', '🤍'];
 
 /**
- * Soft floating background of sparkles, stars, tiny hearts and coffee/pizza emojis.
+ * Soft floating background of sparkles, stars, tiny hearts and matcha leaves.
  * Positions are deterministic per-index so they don't jump on re-render.
  */
 export function StarField({
@@ -25,7 +25,7 @@ export function StarField({
   const items = useMemo(() => {
     const pool = [...emojis];
     if (withHearts) pool.push('🤍', '💗');
-    if (withLeaves) pool.push('☕', '🍕');
+    if (withLeaves) pool.push('🍃', '🍵');
     return Array.from({ length: count }).map((_, i) => {
       const seed = i * 9301 + 49297;
       const rand = (n: number) => ((seed % n) + n) % n;
