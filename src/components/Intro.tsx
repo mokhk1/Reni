@@ -75,7 +75,7 @@ export function Intro({ onStart }: { onStart: () => void }) {
       </button>
 
       <p className="mt-6 font-display italic text-ink-700/60 text-sm tracking-wide">
-        made with 🤍 for Raneem
+        made with 🤍 for Ahlam
       </p>
     </section>
   );
