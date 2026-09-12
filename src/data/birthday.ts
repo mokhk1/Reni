@@ -96,10 +96,10 @@ export const birthdayData = {
       theme: 'mystery',
       roomTitle: 'آخر وحدة...',
       questionTitle: 'هذي مختلفة شوي.',
-      question: 'مين أقوى وحدة بدنيًا؟',
-      answers: ['أحد ثاني 💪', 'مستحيل 😂', 'ما أعرف 🤔', 'أحلام 💪🏻'],
+      question: 'مين أقوى وحدة في؟؟؟؟',
+      answers: ['خالتك', 'ماب الكيبورد ', 'ما أعرف ', 'أحلام 💪🏻'],
       correctAnswer: 3,
-      correctPraise: 'صح... 😭🤍 وأتمنى تحصلينهم كلهن',
+      correctPraise: 'فديتش اقوى اخصائية مساج',
       wrongReply: 'لا 😭 جربي مرة ثانية.',
       revealTitle: 'هدية 4 ✨',
       revealMessage:
