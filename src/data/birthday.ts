@@ -82,10 +82,10 @@ export const birthdayData = {
       correctAnswer: 1,
       correctPraise: 'معليك من الصورة الجاية بالغلط 100%',
       wrongReply: 'لا 😭 مو هذي! فكّري زين...',
-      revealTitle: 'هدية 3 🍵💚',
+      revealTitle: 'زوووط',
       revealMessage:
         'هذي الهدية على ذوقك تمامًا 🍵 كل فنجان ماتشا يذكّرك إنه في لحظات هادية تستاهل توقفين وسوشي يطيرك اليابان. خذي نفس عميق، اشربي بهدوء، واستمتعي بالاكل يا دبا.',
-      revealSub: '🍵 matcha is always the answer',
+      revealSub: ' زوط لابوبو',
       image:
         'https://rivaspa.store/images/woman_swedish_massage_1775346202104.png',
       matcha: true,
