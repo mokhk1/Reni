@@ -80,7 +80,7 @@ export const birthdayData = {
       question: 'وش أكثر مشروب وأكلة تحبها؟',
       answers: ['قهوة وبرجر ☕🍔', 'الماتشا والسوشي 🍵🍣', 'شاي وباستا 🧋🍝', 'هوت تشوكلت وبيتزا 🍫🍕'],
       correctAnswer: 1,
-      correctPraise: 'طبعاً الماتششا والسوشي! 😭🍵 ما فيها شك أصلاً',
+      correctPraise: 'معليك من الصورة الجاية بالغلط 100%',
       wrongReply: 'لا 😭 مو هذي! فكّري زين...',
       revealTitle: 'هدية 3 🍵💚',
       revealMessage:
