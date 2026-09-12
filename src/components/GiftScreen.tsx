@@ -157,7 +157,7 @@ export function GiftScreen({
       {/* CORRECT PHASE */}
       {phase === 'correct' && (
         <div className="w-full max-w-sm flex flex-col items-center text-center animate-scale-in">
-          <div className="text-6xl mb-4 animate-rise">😭💗</div>
+          <div className="text-6xl mb-4 animate-rise">💗</div>
           <p className={`font-arabic text-2xl font-bold ${THEME_ACCENT[gift.theme]}`}>
             {gift.correctPraise}
           </p>
